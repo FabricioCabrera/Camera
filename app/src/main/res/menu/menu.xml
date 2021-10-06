@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/icon_eliminar_todo"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="eliminar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/icon_nuevo_contacto"
+        android:icon="@drawable/ic_baseline_save_24"
+        android:title="guardar"
+        app:showAsAction="ifRoom" />
+</menu>
